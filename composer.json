@@ -9,9 +9,23 @@
             "email": "tandrewbennett@hotmail.com"
         }
     ],
+    "repositories": [
+        {
+          "type":"package",
+          "package": {
+            "name": "toan-leminh/stapler",
+            "version":"master",
+            "source": {
+              "url": "https://github.com/toan-leminh/stapler.git",
+              "type": "git",
+              "reference":"master"
+            }
+          }
+        }
+    ],
     "require": {
         "php": ">=5.4.0",
-        "codesleeve/stapler": "1.2.*",
+        "toan-leminh/stapler": "master",
         "laravel/framework": "4.*|5.*"
     },
     "autoload": {
